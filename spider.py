@@ -80,7 +80,7 @@ for q in questions:
 
     if os.stat(question.dir + '/solution.js').st_size:
         # 如果不是空文件，就认为是已经搞定了这个题
-        js_url = github_url + '/' + question.id + '. ' + question.name + '/' + 'solution.js'
+        js_url = github_url + question.id + '. ' + question.name + '/' + 'solution.js'
         # 因为肯定是js方式解决的多，就只统计这个
         level_count(question.level)
         single_line += '[Javascript](' + js_url + ') |'
@@ -88,7 +88,7 @@ for q in questions:
         single_line += '-- |'
 
     if os.stat(question.dir + '/solution.py').st_size:
-        py_url = github_url + '/' + question.id + '. ' + question.name + '/' + 'solution.py'
+        py_url = github_url + question.id + '. ' + question.name + '/' + 'solution.py'
         single_line += '[Python](' + py_url + ') |'
     else:
         single_line += '-- |'
