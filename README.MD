@@ -1,5 +1,5 @@
 # leetcode
-> Easy: 4; Medium: 0; Hard: 0; Total: 4
+> Easy: 7; Medium: 0; Hard: 0; Total: 7
 
 | ID | Title | Difficulty | JavaScript | Python |
 |----|----|:----:|:----:|:----:|
@@ -16,14 +16,14 @@
 | 011 | [container-with-most-water](https://leetcode.com/problems/container-with-most-water/description/) | Medium | -- |-- |
 | 012 | [integer-to-roman](https://leetcode.com/problems/integer-to-roman/description/) | Medium | -- |-- |
 | 013 | [roman-to-integer](https://leetcode.com/problems/roman-to-integer/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/013.roman-to-integer/solution.js) |-- |
-| 014 | [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/description/) | Easy | -- |-- |
+| 014 | [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/014.longest-common-prefix/solution.js) |-- |
 | 015 | [3sum](https://leetcode.com/problems/3sum/description/) | Medium | -- |-- |
 | 016 | [3sum-closest](https://leetcode.com/problems/3sum-closest/description/) | Medium | -- |-- |
 | 017 | [letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | Medium | -- |-- |
 | 018 | [4sum](https://leetcode.com/problems/4sum/description/) | Medium | -- |-- |
 | 019 | [remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium | -- |-- |
-| 020 | [valid-parentheses](https://leetcode.com/problems/valid-parentheses/description/) | Easy | -- |-- |
-| 021 | [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | Easy | -- |-- |
+| 020 | [valid-parentheses](https://leetcode.com/problems/valid-parentheses/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/020.valid-parentheses/solution.js) |-- |
+| 021 | [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/021.merge-two-sorted-lists/solution.js) |-- |
 | 022 | [generate-parentheses](https://leetcode.com/problems/generate-parentheses/description/) | Medium | -- |-- |
 | 023 | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Hard | -- |-- |
 | 024 | [swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | Medium | -- |-- |
