@@ -3,7 +3,7 @@
 
 | ID | Title | Difficulty | JavaScript | Python |
 |----|----|:----:|:----:|:----:|
-|  001 | [two-sum](https://leetcode.com/problems/two-sum/description/) | Easy | -- |-- |
+|  001 | [two-sum](https://leetcode.com/problems/two-sum/description/) | Easy | [js](https://github.com/maicss/leetcode/blob/master/Algorithms/001.two-sum/solution.js) |-- |
 |  002 | [add-two-numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | -- |-- |
 |  003 | [longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Medium | -- |-- |
 |  004 | [median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Hard | -- |-- |
