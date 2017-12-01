@@ -16,7 +16,7 @@ github_url = 'https://github.com/maicss/leetcode/blob/master/Algorithms/'
 
 class Question(object):
     def __init__(self, _id, name, url, level, free):
-        self.id = f'{_id: 04}'
+        self.id = f'{_id:03}'
         self.name = name
         self.url = url
         self.level = level
