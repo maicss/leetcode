@@ -1,5 +1,5 @@
 # leetcode
-> Easy: 9; Medium: 0; Hard: 0; Total: 9
+> Easy: 12; Medium: 0; Hard: 0; Total: 12
 
 | ID | Title | Difficulty | JavaScript | Python |
 |----|----|:----:|:----:|:----:|
@@ -30,17 +30,17 @@
 | 025 | [reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | Hard | -- |-- |
 | 026 | [remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/026.remove-duplicates-from-sorted-array/solution.js) |-- |
 | 027 | [remove-element](https://leetcode.com/problems/remove-element/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/027.remove-element/solution.js) |[Python](https://github.com/maicss/leetcode/blob/master/Algorithms/027.remove-element/solution.py) |
-| 028 | [implement-strstr](https://leetcode.com/problems/implement-strstr/description/) | Easy | -- |-- |
+| 028 | [implement-strstr](https://leetcode.com/problems/implement-strstr/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/028.implement-strstr/solution.js) |[Python](https://github.com/maicss/leetcode/blob/master/Algorithms/028.implement-strstr/solution.py) |
 | 029 | [divide-two-integers](https://leetcode.com/problems/divide-two-integers/description/) | Medium | -- |-- |
 | 030 | [substring-with-concatenation-of-all-words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/) | Hard | -- |-- |
 | 031 | [next-permutation](https://leetcode.com/problems/next-permutation/description/) | Medium | -- |-- |
 | 032 | [longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/) | Hard | -- |-- |
 | 033 | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | Medium | -- |-- |
 | 034 | [search-for-a-range](https://leetcode.com/problems/search-for-a-range/description/) | Medium | -- |-- |
-| 035 | [search-insert-position](https://leetcode.com/problems/search-insert-position/description/) | Easy | -- |-- |
+| 035 | [search-insert-position](https://leetcode.com/problems/search-insert-position/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/035.search-insert-position/solution.js) |[Python](https://github.com/maicss/leetcode/blob/master/Algorithms/035.search-insert-position/solution.py) |
 | 036 | [valid-sudoku](https://leetcode.com/problems/valid-sudoku/description/) | Medium | -- |-- |
 | 037 | [sudoku-solver](https://leetcode.com/problems/sudoku-solver/description/) | Hard | -- |-- |
-| 038 | [count-and-say](https://leetcode.com/problems/count-and-say/description/) | Easy | -- |-- |
+| 038 | [count-and-say](https://leetcode.com/problems/count-and-say/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/038.count-and-say/solution.js) |[Python](https://github.com/maicss/leetcode/blob/master/Algorithms/038.count-and-say/solution.py) |
 | 039 | [combination-sum](https://leetcode.com/problems/combination-sum/description/) | Medium | -- |-- |
 | 040 | [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii/description/) | Medium | -- |-- |
 | 041 | [first-missing-positive](https://leetcode.com/problems/first-missing-positive/description/) | Hard | -- |-- |
