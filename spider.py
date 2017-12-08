@@ -68,7 +68,7 @@ for q in questions:
                         q['stat']['question__title_slug'],
                         'https://leetcode.com/problems/' + q['stat']['question__title_slug'] + '/description/',
                         question_level[q['difficulty']['level'] - 1],
-                        q['paid_only'],
+                        not q['paid_only'],
                         )
     question.dir = os.getcwd() + '/Algorithms/' + question.id + '.' + question.name
     if not os.path.exists(question.dir):
@@ -76,8 +76,10 @@ for q in questions:
     # 创建文件
     open(question.dir + '/solution.js', 'a')
     open(question.dir + '/solution.py', 'a')
-    single_line = '| %s | [%s](%s) | %s | ' % (question.id, question.name, question.url, question.level)
-
+    if question.free:
+        single_line = '| %s | [%s](%s) | %s | ' % (question.id, question.name, question.url, question.level)
+    else:
+        single_line = '| %s | [~~%s~~](%s) | %s | ' % (question.id, question.name, question.url, question.level)
     if os.stat(question.dir + '/solution.js').st_size:
         # 如果不是空文件，就认为是已经搞定了这个题
         js_url = github_url + question.id + '.' + question.name + '/' + 'solution.js'
