@@ -1,5 +1,5 @@
 # leetcode
-> Easy: 12; Medium: 0; Hard: 0; Total: 12
+> Easy: 14; Medium: 0; Hard: 0; Total: 14
 
 | ID | Title | Difficulty | JavaScript | Python |
 |----|----|:----:|:----:|:----:|
@@ -55,12 +55,12 @@
 | 050 | [powx-n](https://leetcode.com/problems/powx-n/description/) | Medium | -- |-- |
 | 051 | [n-queens](https://leetcode.com/problems/n-queens/description/) | Hard | -- |-- |
 | 052 | [n-queens-ii](https://leetcode.com/problems/n-queens-ii/description/) | Hard | -- |-- |
-| 053 | [maximum-subarray](https://leetcode.com/problems/maximum-subarray/description/) | Easy | -- |-- |
+| 053 | [maximum-subarray](https://leetcode.com/problems/maximum-subarray/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/053.maximum-subarray/solution.js) |[Python](https://github.com/maicss/leetcode/blob/master/Algorithms/053.maximum-subarray/solution.py) |
 | 054 | [spiral-matrix](https://leetcode.com/problems/spiral-matrix/description/) | Medium | -- |-- |
 | 055 | [jump-game](https://leetcode.com/problems/jump-game/description/) | Medium | -- |-- |
 | 056 | [merge-intervals](https://leetcode.com/problems/merge-intervals/description/) | Medium | -- |-- |
 | 057 | [insert-interval](https://leetcode.com/problems/insert-interval/description/) | Hard | -- |-- |
-| 058 | [length-of-last-word](https://leetcode.com/problems/length-of-last-word/description/) | Easy | -- |-- |
+| 058 | [length-of-last-word](https://leetcode.com/problems/length-of-last-word/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/058.length-of-last-word/solution.js) |-- |
 | 059 | [spiral-matrix-ii](https://leetcode.com/problems/spiral-matrix-ii/description/) | Medium | -- |-- |
 | 060 | [permutation-sequence](https://leetcode.com/problems/permutation-sequence/description/) | Medium | -- |-- |
 | 061 | [rotate-list](https://leetcode.com/problems/rotate-list/description/) | Medium | -- |-- |
