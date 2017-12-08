@@ -1,5 +1,5 @@
 # leetcode
-> Easy: 16; Medium: 0; Hard: 0; Total: 16
+> Easy: 18; Medium: 0; Hard: 0; Total: 18
 
 | ID | Title | Difficulty | JavaScript | Python |
 |----|----|:----:|:----:|:----:|
@@ -71,8 +71,8 @@
 | 066 | [plus-one](https://leetcode.com/problems/plus-one/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/066.plus-one/solution.js) |[Python](https://github.com/maicss/leetcode/blob/master/Algorithms/066.plus-one/solution.py) |
 | 067 | [add-binary](https://leetcode.com/problems/add-binary/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/067.add-binary/solution.js) |-- |
 | 068 | [text-justification](https://leetcode.com/problems/text-justification/description/) | Hard | -- |-- |
-| 069 | [sqrtx](https://leetcode.com/problems/sqrtx/description/) | Easy | -- |-- |
-| 070 | [climbing-stairs](https://leetcode.com/problems/climbing-stairs/description/) | Easy | -- |-- |
+| 069 | [sqrtx](https://leetcode.com/problems/sqrtx/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/069.sqrtx/solution.js) |-- |
+| 070 | [climbing-stairs](https://leetcode.com/problems/climbing-stairs/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/070.climbing-stairs/solution.js) |-- |
 | 071 | [simplify-path](https://leetcode.com/problems/simplify-path/description/) | Medium | -- |-- |
 | 072 | [edit-distance](https://leetcode.com/problems/edit-distance/description/) | Hard | -- |-- |
 | 073 | [set-matrix-zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | Medium | -- |-- |
