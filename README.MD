@@ -1,5 +1,5 @@
 # leetcode
-> Easy: 14; Medium: 0; Hard: 0; Total: 14
+> Easy: 16; Medium: 0; Hard: 0; Total: 16
 
 | ID | Title | Difficulty | JavaScript | Python |
 |----|----|:----:|:----:|:----:|
@@ -68,8 +68,8 @@
 | 063 | [unique-paths-ii](https://leetcode.com/problems/unique-paths-ii/description/) | Medium | -- |-- |
 | 064 | [minimum-path-sum](https://leetcode.com/problems/minimum-path-sum/description/) | Medium | -- |-- |
 | 065 | [valid-number](https://leetcode.com/problems/valid-number/description/) | Hard | -- |-- |
-| 066 | [plus-one](https://leetcode.com/problems/plus-one/description/) | Easy | -- |-- |
-| 067 | [add-binary](https://leetcode.com/problems/add-binary/description/) | Easy | -- |-- |
+| 066 | [plus-one](https://leetcode.com/problems/plus-one/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/066.plus-one/solution.js) |[Python](https://github.com/maicss/leetcode/blob/master/Algorithms/066.plus-one/solution.py) |
+| 067 | [add-binary](https://leetcode.com/problems/add-binary/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/067.add-binary/solution.js) |-- |
 | 068 | [text-justification](https://leetcode.com/problems/text-justification/description/) | Hard | -- |-- |
 | 069 | [sqrtx](https://leetcode.com/problems/sqrtx/description/) | Easy | -- |-- |
 | 070 | [climbing-stairs](https://leetcode.com/problems/climbing-stairs/description/) | Easy | -- |-- |
@@ -456,6 +456,7 @@
 | 479 | [largest-palindrome-product](https://leetcode.com/problems/largest-palindrome-product/description/) | Easy | -- |-- |
 | 480 | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/description/) | Hard | -- |-- |
 | 481 | [magical-string](https://leetcode.com/problems/magical-string/description/) | Medium | -- |-- |
+| 482 | [license-key-formatting](https://leetcode.com/problems/license-key-formatting/description/) | Easy | -- |-- |
 | 483 | [smallest-good-base](https://leetcode.com/problems/smallest-good-base/description/) | Hard | -- |-- |
 | 484 | [find-permutation](https://leetcode.com/problems/find-permutation/description/) | Medium | -- |-- |
 | 485 | [max-consecutive-ones](https://leetcode.com/problems/max-consecutive-ones/description/) | Easy | -- |-- |
@@ -525,6 +526,7 @@
 | 562 | [longest-line-of-consecutive-one-in-matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/description/) | Medium | -- |-- |
 | 563 | [binary-tree-tilt](https://leetcode.com/problems/binary-tree-tilt/description/) | Easy | -- |-- |
 | 564 | [find-the-closest-palindrome](https://leetcode.com/problems/find-the-closest-palindrome/description/) | Hard | -- |-- |
+| 565 | [array-nesting](https://leetcode.com/problems/array-nesting/description/) | Medium | -- |-- |
 | 566 | [reshape-the-matrix](https://leetcode.com/problems/reshape-the-matrix/description/) | Easy | -- |-- |
 | 567 | [permutation-in-string](https://leetcode.com/problems/permutation-in-string/description/) | Medium | -- |-- |
 | 568 | [maximum-vacation-days](https://leetcode.com/problems/maximum-vacation-days/description/) | Hard | -- |-- |
