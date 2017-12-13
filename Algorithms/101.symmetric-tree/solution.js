@@ -9,22 +9,15 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isSymmetric = function (root) {
-  // 这个其实就是翻转二叉树
-  let left = root.left
-  let right = root.right
 
-  left = change(left)
-  right = change(right)
-
+const isSymmetric = function (root) {
+  return root === null || isSame(root.left, root.right)
 }
 
-function change (tree) {
-  if (!tree) return
-  [tree.left, tree.right] = [tree.right, tree.left]
-  change(tree.left)
-  change(tree.right)
-  return tree
+const isSame = function (node1, node2) {
+  if (node1 === null || node2 === null) return node1 === node2
+  if (node1.val !== node2.val) return false
+  return isSame(node1.left, node2.right) && isSame(node1.right, node2.left)
 }
 
 let tree = {
@@ -33,4 +26,10 @@ let tree = {
   right: {val: 2, left: {val: 4, left: null, right: null}, right: {val: 3, left: null, right: null}}
 }
 
+let tree2 = {
+  val: 1,
+  left: {val: 2, left: null, right: {val: 3, left: null, right: null}},
+  right: {val: 2, left: null, right: {val: 3, left: null, right: null}}
+}
+// console.log(toJSON(change(tree)))
 console.log(isSymmetric(tree))
