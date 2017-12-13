@@ -1,5 +1,5 @@
 # leetcode
-> Easy: 18; Medium: 0; Hard: 0; Total: 18
+> Easy: 21; Medium: 0; Hard: 0; Total: 21
 
 | ID | Title | Difficulty | JavaScript | Python |
 |----|----|:----:|:----:|:----:|
@@ -85,7 +85,7 @@
 | 080 | [remove-duplicates-from-sorted-array-ii](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) | Medium | -- |-- |
 | 081 | [search-in-rotated-sorted-array-ii](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | Medium | -- |-- |
 | 082 | [remove-duplicates-from-sorted-list-ii](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/) | Medium | -- |-- |
-| 083 | [remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | Easy | -- |-- |
+| 083 | [remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/083.remove-duplicates-from-sorted-list/solution.js) |-- |
 | 084 | [largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | Hard | -- |-- |
 | 085 | [maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/description/) | Hard | -- |-- |
 | 086 | [partition-list](https://leetcode.com/problems/partition-list/description/) | Medium | -- |-- |
@@ -102,8 +102,8 @@
 | 097 | [interleaving-string](https://leetcode.com/problems/interleaving-string/description/) | Hard | -- |-- |
 | 098 | [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | Medium | -- |-- |
 | 099 | [recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree/description/) | Hard | -- |-- |
-| 100 | [same-tree](https://leetcode.com/problems/same-tree/description/) | Easy | -- |-- |
-| 101 | [symmetric-tree](https://leetcode.com/problems/symmetric-tree/description/) | Easy | -- |-- |
+| 100 | [same-tree](https://leetcode.com/problems/same-tree/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/100.same-tree/solution.js) |[Python](https://github.com/maicss/leetcode/blob/master/Algorithms/100.same-tree/solution.py) |
+| 101 | [symmetric-tree](https://leetcode.com/problems/symmetric-tree/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/101.symmetric-tree/solution.js) |-- |
 | 102 | [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | Medium | -- |-- |
 | 103 | [binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | Medium | -- |-- |
 | 104 | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | Easy | -- |-- |
@@ -659,3 +659,7 @@
 | 739 | [daily-temperatures](https://leetcode.com/problems/daily-temperatures/description/) | Medium | -- |-- |
 | 740 | [delete-and-earn](https://leetcode.com/problems/delete-and-earn/description/) | Medium | -- |-- |
 | 741 | [cherry-pickup](https://leetcode.com/problems/cherry-pickup/description/) | Hard | -- |-- |
+| 743 | [closest-leaf-in-a-binary-tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/description/) | Medium | -- |-- |
+| 744 | [network-delay-time](https://leetcode.com/problems/network-delay-time/description/) | Medium | -- |-- |
+| 745 | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | Easy | -- |-- |
+| 746 | [prefix-and-suffix-search](https://leetcode.com/problems/prefix-and-suffix-search/description/) | Hard | -- |-- |
