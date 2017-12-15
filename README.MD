@@ -1,5 +1,5 @@
 # leetcode
-> Easy: 21; Medium: 0; Hard: 0; Total: 21
+> Easy: 23; Medium: 0; Hard: 0; Total: 23
 
 | ID | Title | Difficulty | JavaScript | Python |
 |----|----|:----:|:----:|:----:|
@@ -106,10 +106,10 @@
 | 101 | [symmetric-tree](https://leetcode.com/problems/symmetric-tree/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/101.symmetric-tree/solution.js) |-- |
 | 102 | [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | Medium | -- |-- |
 | 103 | [binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | Medium | -- |-- |
-| 104 | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | Easy | -- |-- |
+| 104 | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/104.maximum-depth-of-binary-tree/solution.js) |-- |
 | 105 | [construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | Medium | -- |-- |
 | 106 | [construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/) | Medium | -- |-- |
-| 107 | [binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) | Easy | -- |-- |
+| 107 | [binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/107.binary-tree-level-order-traversal-ii/solution.js) |-- |
 | 108 | [convert-sorted-array-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | Easy | -- |-- |
 | 109 | [convert-sorted-list-to-binary-search-tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/) | Medium | -- |-- |
 | 110 | [balanced-binary-tree](https://leetcode.com/problems/balanced-binary-tree/description/) | Easy | -- |-- |
