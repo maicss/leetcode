@@ -1,8 +1,17 @@
+const {Queue, Stack} = require('./QueueAndStack')
 function Graph () {
   // 存储所有顶点的名字
   const vertices = []
   // 存储邻接表 adjacency list
   let adjList = new Map()
+
+  const initializeColor = function () {
+    const color = {}
+    for (let vertex of vertices) {
+      color[vertex] = 'white'
+    }
+    return color
+  }
 
   // 添加一个顶点
   this.addVertex = function (v) {
@@ -24,6 +33,47 @@ function Graph () {
     }
     return s
   }
+
+  this.bfs = (v, cb) => {
+    const color = initializeColor()
+    const queue = new Queue()
+    queue.enqueue(v)
+    while (queue.size) {
+      let u = queue.dequeue()
+      let neighbors = adjList.get(u)
+      color[u] = 'grey'
+      for (let i of neighbors) {
+        if (color[i] === 'white') {
+          color[i] = 'grey'
+          queue.enqueue(i)
+        }
+      }
+      color[u] = 'black'
+      cb && cb(u)
+    }
+  }
+  this.dfs = (v, cb) => {
+    const color = initializeColor()
+    const stack = new Stack()
+    stack.push(v)
+    while (stack.size) {
+      let u = stack.pop()
+      let neighbors = adjList.get(u)
+      color[u] = 'grey'
+      for (let i of neighbors) {
+        if (color[i] === 'white') {
+          color[i] = 'grey'
+          stack.push(i)
+        }
+      }
+      color[u] = 'black'
+      cb && cb(u)
+    }
+  }
+}
+
+function printNode (value) {
+  console.log('Visited vertex: ', value)
 }
 
 const graph = new Graph()
@@ -43,4 +93,5 @@ graph.addEdge('B', 'E')
 graph.addEdge('B', 'F')
 graph.addEdge('E', 'I')
 
-console.log(graph.toString())
+console.log(graph.bfs(myVertices[0], printNode))
+console.log(graph.dfs(myVertices[0], printNode))
