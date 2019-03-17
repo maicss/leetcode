@@ -56,8 +56,17 @@ if not os.path.exists(os.getcwd() + '/Algorithms'):
     print('文件夹Algorithms不存在')
     os.mkdir(os.getcwd() + '/Algorithms')
 readme_file = os.getcwd() + '/README.MD'
-readme_content = []
-readme_content.append('# leetcode')
+readme_content = ['''# leetcode
+
+## spider usage
+
+ - login to [leetcode](https://leetcode.com/accounts/login/)
+ - open `devTools` -> `Application` -> `cookies`, copy `LEETCODE_SESSION` and `csrftoken`, make a json file
+ - run spider with `python(3) spider.py`, you may need install `requests` first.
+
+## progress
+'''
+]
 readme_content.append('| ID | Title | Difficulty | JavaScript | Python |')
 readme_content.append('|----|----|:----:|:----:|:----:|')
 # 创建题目名称的文件夹，和solution文件
