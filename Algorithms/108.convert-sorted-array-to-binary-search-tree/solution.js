@@ -9,8 +9,6 @@
  * @param {number[]} nums
  * @return {TreeNode}
  */
-const sortedArrayToBST = function (nums) {
+module.exports = function (nums) {
 
 }
-
-console.log([-10, -3, 0, 5, 9])

@@ -1,0 +1,26 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "maicss leetcode",
+  "main": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maicss/leetcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maicss/leetcode/issues"
+  },
+  "homepage": "https://github.com/maicss/leetcode#readme",
+  "devdependencies": {
+    "jest": "^24.5.0"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
