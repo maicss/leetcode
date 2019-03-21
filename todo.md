@@ -1,8 +1,6 @@
 ```json5
 [
     {"index":"108","name":"Convert Sorted Array to Binary Search Tree"},
-    {"index":"122","name":"Best Time to Buy and Sell Stock II"},
-    {"index":"125","name":"Valid Palindrome"},
     {"index":"136","name":"Single Number"},
     {"index":"141","name":"Linked List Cycle"},
     {"index":"155","name":"Min Stack"},

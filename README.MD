@@ -3,12 +3,13 @@
 ## spider usage
 
  - login to [leetcode](https://leetcode.com/accounts/login/)
- - open `devTools` -> `Application` -> `cookies`, copy `LEETCODE_SESSION` and `csrftoken`, make a json file
+ - (Chrome) open `devTools` -> `Application` -> `cookies`, copy `LEETCODE_SESSION` and `csrftoken` key-value, make a json file.
  - run spider with `python(3) spider.py`, you may need install `requests` first.
+ - name with delete line means that problem is only for members.
 
 ## progress
 
-> Easy: 24; Medium: 0; Hard: 0; Total: 24
+> Easy: 29; Medium: 0; Hard: 0; Total: 29
 
 | ID | Title | Difficulty | JavaScript | Python |
 |----|----|:----:|:----:|:----:|
@@ -99,7 +100,7 @@
 | 085 | [maximal-rectangle](https://leetcode.com/problems/maximal-rectangle/description/) | Hard | -- |-- |
 | 086 | [partition-list](https://leetcode.com/problems/partition-list/description/) | Medium | -- |-- |
 | 087 | [scramble-string](https://leetcode.com/problems/scramble-string/description/) | Hard | -- |-- |
-| 088 | [merge-sorted-array](https://leetcode.com/problems/merge-sorted-array/description/) | Easy | -- |-- |
+| 088 | [merge-sorted-array](https://leetcode.com/problems/merge-sorted-array/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/088.merge-sorted-array/solution.js) |-- |
 | 089 | [gray-code](https://leetcode.com/problems/gray-code/description/) | Medium | -- |-- |
 | 090 | [subsets-ii](https://leetcode.com/problems/subsets-ii/description/) | Medium | -- |-- |
 | 091 | [decode-ways](https://leetcode.com/problems/decode-ways/description/) | Medium | -- |-- |
@@ -129,14 +130,14 @@
 | 115 | [distinct-subsequences](https://leetcode.com/problems/distinct-subsequences/description/) | Hard | -- |-- |
 | 116 | [populating-next-right-pointers-in-each-node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/) | Medium | -- |-- |
 | 117 | [populating-next-right-pointers-in-each-node-ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/) | Medium | -- |-- |
-| 118 | [pascals-triangle](https://leetcode.com/problems/pascals-triangle/description/) | Easy | -- |-- |
+| 118 | [pascals-triangle](https://leetcode.com/problems/pascals-triangle/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/118.pascals-triangle/solution.js) |-- |
 | 119 | [pascals-triangle-ii](https://leetcode.com/problems/pascals-triangle-ii/description/) | Easy | -- |-- |
 | 120 | [triangle](https://leetcode.com/problems/triangle/description/) | Medium | -- |-- |
-| 121 | [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | Easy | -- |-- |
-| 122 | [best-time-to-buy-and-sell-stock-ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | Easy | -- |-- |
+| 121 | [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/121.best-time-to-buy-and-sell-stock/solution.js) |-- |
+| 122 | [best-time-to-buy-and-sell-stock-ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/122.best-time-to-buy-and-sell-stock-ii/solution.js) |-- |
 | 123 | [best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) | Hard | -- |-- |
 | 124 | [binary-tree-maximum-path-sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | Hard | -- |-- |
-| 125 | [valid-palindrome](https://leetcode.com/problems/valid-palindrome/description/) | Easy | -- |-- |
+| 125 | [valid-palindrome](https://leetcode.com/problems/valid-palindrome/description/) | Easy | [Javascript](https://github.com/maicss/leetcode/blob/master/Algorithms/125.valid-palindrome/solution.js) |-- |
 | 126 | [word-ladder-ii](https://leetcode.com/problems/word-ladder-ii/description/) | Hard | -- |-- |
 | 127 | [word-ladder](https://leetcode.com/problems/word-ladder/description/) | Medium | -- |-- |
 | 128 | [longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | Hard | -- |-- |

@@ -61,8 +61,9 @@ readme_content = ['''# leetcode
 ## spider usage
 
  - login to [leetcode](https://leetcode.com/accounts/login/)
- - open `devTools` -> `Application` -> `cookies`, copy `LEETCODE_SESSION` and `csrftoken`, make a json file
+ - (Chrome) open `devTools` -> `Application` -> `cookies`, copy `LEETCODE_SESSION` and `csrftoken` key-value, make a json file.
  - run spider with `python(3) spider.py`, you may need install `requests` first.
+ - name with delete line means that problem is only for members.
 
 ## progress
 '''
