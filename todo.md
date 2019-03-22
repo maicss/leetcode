@@ -1,14 +1,9 @@
 ```json5
 [
     {"index":"108","name":"Convert Sorted Array to Binary Search Tree"},
-    {"index":"136","name":"Single Number"},
     {"index":"141","name":"Linked List Cycle"},
-    {"index":"155","name":"Min Stack"},
     {"index":"160","name":"Intersection of Two Linked Lists"},
     {"index":"169","name":"Majority Element"},
-    {"index":"171","name":"Excel Sheet Column Number"},
-    {"index":"172","name":"Factorial Trailing Zeroes"},
-    {"index":"189","name":"Rotate Array"},
     {"index":"190","name":"Reverse Bits"},
     {"index":"191","name":"Number of 1 Bits"},
     {"index":"198","name":"House Robber"},
